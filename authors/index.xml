@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Debjoy&#39;s Website</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 03 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Debjoy Saha is a BTech student, currently in his sophomore year, majoring in Electronics and Electrical Communications. His research interests include Deep Learning and Robotics. He is a member of student research group &lt;a href=&#34;http://www.aerialroboticskgp.org/&#34;&gt;Aerial Robotics Lab, IIT Kharagpur&lt;/a&gt; where he is involved in building autonomous software solutions for Unmanned Aerial Vehicles.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Balaji Udayagiri</title>
+      <link>/authors/balaji-udayagiri/</link>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/balaji-udayagiri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biswajit Ghosh</title>
+      <link>/authors/biswajit-ghosh/</link>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/biswajit-ghosh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parakh Agarwal</title>
+      <link>/authors/parakh-agarwal/</link>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/parakh-agarwal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Somesh Kumar</title>
+      <link>/authors/somesh-kumar/</link>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/somesh-kumar/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

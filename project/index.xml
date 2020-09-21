@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Debjoy&#39;s Website</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>Drone Racing Optimisation</title>
+      <link>/project/flipkart-grid2.0/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/project/flipkart-grid2.0/</guid>
+      <description>&lt;p&gt;Finalists in the Flipkart GRID-2.0 Robotics Challenge. Competition Ongoing, so is our effort.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hateful Memes Detection</title>
+      <link>/project/hatememe/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/project/hatememe/</guid>
+      <description>&lt;p&gt;Currently ranked 18th in the leaderboard for the Hatememe detection Challenge, NIPS.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Warehouse management using Quadrotors</title>
+      <link>/project/imav/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/project/imav/</guid>
+      <description>&lt;p&gt;Won the IMAV-2019 Indoor Competition! :)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
