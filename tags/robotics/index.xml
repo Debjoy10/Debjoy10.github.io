@@ -5,7 +5,7 @@
     <link>/tags/robotics/</link>
       <atom:link href="/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
     <description>Robotics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Robotics</title>
@@ -15,9 +15,11 @@
     <item>
       <title>Drone Racing Optimisation</title>
       <link>/project/flipkart-grid2.0/</link>
-      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
       <guid>/project/flipkart-grid2.0/</guid>
-      <description>&lt;p&gt;Finalists in the Flipkart GRID-2.0 Robotics Challenge. Competition Ongoing, so is our effort.&lt;/p&gt;
+      <description>&lt;p&gt;Team Drone-Acharya in the Finals!!!&lt;/p&gt;
+&lt;p&gt;Worked as a part of Drone-Acharya Team, IIT Kharagpur for the Flipkart GRID-2.0 Robotics Track Competition: Autonomous Indoor Drone. Working on an Imitation-Learning based learning algorithm for fast Quadrotor trajectory planning using DAGGER. Fully deployed an expert minimum-snap trajectory generation algorithm on Microsoft AirSim Simulator on a custom warehouse environment built on Unreal Engine.
+More details coming soon.&lt;/p&gt;
 </description>
     </item>
     
@@ -26,7 +28,8 @@
       <link>/project/imav/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
       <guid>/project/imav/</guid>
-      <description>&lt;p&gt;Won the IMAV-2019 Indoor Competition! :)&lt;/p&gt;
+      <description>&lt;p&gt;Developed a algorithm for autonomous warehouse inventory management using UAVs for the 11th International Micro Aerial Vehicles competition and conference(IMAV-2019). Devised a traversal algorithm using coloured frames for localisation, for performing the complete inventory in minimum time on a DJI-Tello
+microdrone. Developed the OCR tools for accurate detection of alphanumeric codes using google’s Tesseract library and QR-codes using Zbar library for inventory management of boxes in a warehouse. Won the IMAV-2019 Indoor Competition! :)&lt;/p&gt;
 </description>
     </item>
     

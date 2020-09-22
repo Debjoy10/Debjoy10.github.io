@@ -5,7 +5,7 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 03 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 10 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
@@ -13,17 +13,9 @@
     </image>
     
     <item>
-      <title>Source Themes</title>
-      <link>/tags/source-themes/</link>
-      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/source-themes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Computer Vision</title>
       <link>/tags/computer-vision/</link>
-      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
       <guid>/tags/computer-vision/</guid>
       <description></description>
     </item>
@@ -31,24 +23,32 @@
     <item>
       <title>Deep Learning</title>
       <link>/tags/deep-learning/</link>
-      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
       <guid>/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NLP</title>
-      <link>/tags/nlp/</link>
-      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robotics</title>
       <link>/tags/robotics/</link>
-      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
       <guid>/tags/robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>/tags/nlp/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source Themes</title>
+      <link>/tags/source-themes/</link>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/source-themes/</guid>
       <description></description>
     </item>
     

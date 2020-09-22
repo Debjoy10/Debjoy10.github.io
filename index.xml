@@ -71,6 +71,27 @@
     </item>
     
     <item>
+      <title>Drone Racing Optimisation</title>
+      <link>/project/flipkart-grid2.0/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/project/flipkart-grid2.0/</guid>
+      <description>&lt;p&gt;Team Drone-Acharya in the Finals!!!&lt;/p&gt;
+&lt;p&gt;Worked as a part of Drone-Acharya Team, IIT Kharagpur for the Flipkart GRID-2.0 Robotics Track Competition: Autonomous Indoor Drone. Working on an Imitation-Learning based learning algorithm for fast Quadrotor trajectory planning using DAGGER. Fully deployed an expert minimum-snap trajectory generation algorithm on Microsoft AirSim Simulator on a custom warehouse environment built on Unreal Engine.
+More details coming soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hateful Memes Detection</title>
+      <link>/project/hatememe/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/project/hatememe/</guid>
+      <description>&lt;p&gt;Performed Pretraining and Finetuning of cutting-edge Multimodal Attention-based models like Visual-BERT and Concat-BERT. Experimented with different dataset augmentations and training techniques like negative supervision. Paper coming soon!!&lt;/p&gt;
+&lt;p&gt;Currently ranked 18th in the leaderboard for the Hatememe detection Challenge, NIPS.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Warehouse Management Using Real-Time QR-Code and Text Detection</title>
       <link>/publication/conference-paper/</link>
       <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
@@ -83,29 +104,12 @@
     </item>
     
     <item>
-      <title>Drone Racing Optimisation</title>
-      <link>/project/flipkart-grid2.0/</link>
-      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/project/flipkart-grid2.0/</guid>
-      <description>&lt;p&gt;Finalists in the Flipkart GRID-2.0 Robotics Challenge. Competition Ongoing, so is our effort.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hateful Memes Detection</title>
-      <link>/project/hatememe/</link>
-      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/project/hatememe/</guid>
-      <description>&lt;p&gt;Currently ranked 18th in the leaderboard for the Hatememe detection Challenge, NIPS.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Warehouse management using Quadrotors</title>
       <link>/project/imav/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
       <guid>/project/imav/</guid>
-      <description>&lt;p&gt;Won the IMAV-2019 Indoor Competition! :)&lt;/p&gt;
+      <description>&lt;p&gt;Developed a algorithm for autonomous warehouse inventory management using UAVs for the 11th International Micro Aerial Vehicles competition and conference(IMAV-2019). Devised a traversal algorithm using coloured frames for localisation, for performing the complete inventory in minimum time on a DJI-Tello
+microdrone. Developed the OCR tools for accurate detection of alphanumeric codes using google’s Tesseract library and QR-codes using Zbar library for inventory management of boxes in a warehouse. Won the IMAV-2019 Indoor Competition! :)&lt;/p&gt;
 </description>
     </item>
     
