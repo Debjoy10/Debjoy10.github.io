@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Natural Language Processing | Debjoy&#39;s Website</title>
+    <link>/tag/natural-language-processing/</link>
+      <atom:link href="/tag/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Natural Language Processing</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 21 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_huc8dfb1519b1df96b2652c653410e98bf_3029_512x512_fill_lanczos_center_2.png</url>
+      <title>Natural Language Processing</title>
+      <link>/tag/natural-language-processing/</link>
+    </image>
+    
+    <item>
+      <title>Low-Resource Offensive Language Detection</title>
+      <link>/project/dravidian/</link>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+      <guid>/project/dravidian/</guid>
+      <description>&lt;p&gt;In our work, we study robust ensembling techniques for offensive language identification in code-mixed Dravidian languages using multilingual BERT models. Owing to the stochastic nature of neural net predictions, ensembling over multiple models reduces variance, thus improving low resource performance of these models. In our current approach, we look at 3 major ensembling techniques, namely,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Genetic algorithm optimised weighted averaging,&lt;/li&gt;
+&lt;li&gt;Self-Ensembling with different random seeds and&lt;/li&gt;
+&lt;li&gt;CNN-BERT embedding fusion, in which we train a classifier on concatenated embeddings for different BERT models and CNN embeddings trained on performant word vectors.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We experiment with models pretrained on code-mixed datasets. We also look at some ways to combat class imbalance in the dataset through collated 2-step training and weighted gradients. We study methods for robust ensembling of transformer and convolutional models for classification of low resource languages. We conclusively show that a combination of multiple inter-model ensembling techniques can help reduce the variance of predictions and improve performance across all classes in low-resource settings.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hateful Memes Detection</title>
+      <link>/project/hatememe/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/project/hatememe/</guid>
+      <description>&lt;h3 id=&#34;the-problem-statement&#34;&gt;The Problem Statement&lt;/h3&gt;
+&lt;p&gt;This project is aimed at identifying hateful content from social media memes. In general, hateful memes have a more convoluted hidden meaning, woven deep into our social prejudices. Seemingly insignificant differences can completely change how people interpret them. Due to the subtle nature of these memes, people belonging to different classes, societies and gender interpret them differently. All these qualities make the task of detection of hateful memes a lot more challenging and all the more necessary to ensure a safe and wholesome social media experience. In this project, we look into the challenges we face with brute force finetuning for this task and why training with semi-supervised modifications is a necessity.&lt;/p&gt;
+&lt;h3 id=&#34;the-model&#34;&gt;The Model:&lt;/h3&gt;
+&lt;p&gt;The model we use for experiments is Visual-BERT, which is a transformer encoder based multimodal deep learning model, developed by UCLA-NLP. The model architecture is similar to BERT. The difference is that we also input meme-image embeddings(obtained from bounding boxes predicted by a Mask-RCNN model) concatenated to BERT’s WordPiece embeddings for the meme text. This ensures efficient text-to-image and image-to-text attention that ensures that we can model the subtle interdependencies at play when dealing with multiple modalities.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lfs.aminer.cn/upload/pdf_image/5ec4/a63/5ec49a639fced0a24b4dea15img-002.png&#34; alt=&#34;VisBERT&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;finetuning-strategies&#34;&gt;Finetuning strategies:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Community Tags:&lt;/strong&gt;&lt;br&gt;
+We perform image grounding in a self-supervised manner by extracting target community information from the meme image. We collect a Community-dataset comprising of images related to the top-10 targeted communities identified in the Hateful Memes dataset using browser automation. We develop a CNN classifier, which we call the &lt;em&gt;CommNet&lt;/em&gt;, and train it on this dataset. After training, we generate the community tag output from CommNet for the entire Hateful Memes dataset.&lt;br&gt;
+Output labels with the prediction probability of less than a threshold are discarded. And for the rest, an additional line with information regarding the community information is added to the input meme text. This modified input is provided to the Visual-BERT model during training and inference. This helps the model get details regarding community information contained in the meme, and thus better differentiate between memes with similar text in different contexts.&lt;br&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Negative Supervision:&lt;/strong&gt;&lt;br&gt;
+One noticeable feature of the Hatememe dataset was that multiple memes were based upon the same template images. In these cases, if there is a minimal lexical difference in the meme text, the Visual-BERT output [CLS] embeddings are similar, thus resulting in similar prediction probabilities.&lt;br&gt;
+Negative supervision aims at learning to differentiate between similar-looking samples. First, we run the Visual-BERT model on each sample in the train split of the Hatememe dataset and store the CLS embeddings for hate and not hate samples separately. For storing, we use Facebook’s fast indexing-based storage FAISS. Then, we iterate on all samples in the training dataset and extract the samples having the opposite training label but the largest cosine similarity of their CLS embeddings. During training, we include an additional negative sampling loss, that is a scaled cosine similarity between the embeddings of the similar sample pair. This ensures that, as training progresses, similar samples having different labels have more distant output embeddings.&lt;br&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Monte Carlo Dropout&lt;/strong&gt;: During inference, we keep random dropout and take the final predicted probability as the mean of the Gaussian distribution generated using the predicted probabilities over 100 runs. Using MC-dropout ensures better-calibrated output probabilities, i.e. generated probabilities reflect the true model confidence in the predicted class.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
